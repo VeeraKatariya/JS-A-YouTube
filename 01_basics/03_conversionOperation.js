@@ -32,9 +32,19 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let anyNumber = 33
 
 let stringNumber = String(anyNumber)
-console.log(stringNumber);
+// console.log(stringNumber);
 
-console.log(typeof stringNumber);
+// console.log(typeof stringNumber);
+
+
+// let manyProduct =  "Gucci product"
+// let newproduct = Boolean(manyProduct)
+// console.log(newproduct);
+// // console.log(typeof newproduct);
+// console.log(manyProduct);
+// console.log(typeof manyProduct);
+
+
 
 
 
