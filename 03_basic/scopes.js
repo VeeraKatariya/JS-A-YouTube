@@ -100,3 +100,14 @@ console.log(mobile.brand);         // Output: Samsung
 console.log(mobile.features[0]);   // Output: Camera
 mobile.call("9876543210");         // Output: Calling to 9876543210...
 console.log(mobile.getDetails());  // Output: Samsung Galaxy S24 - ₹69999
+
+
+
+// **************************************
+function myFunction() {
+  let functionScoped = "I am inside the function";
+  console.log(functionScoped);
+}
+
+myFunction();
+console.log(functionScoped); //  Error: functionScoped is not defined
